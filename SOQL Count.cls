@@ -4,7 +4,7 @@ map<String,Integer> classLOCmap = new map<String,Integer>();
 List<String> strlst = new List<String>();
 String substra;                     
 String substrb;
- integer totalQuery = 0;
+integer totalQuery = 0;
 for (ApexClass cls : classes){
     if(cls.body != '(hidden)'){
         String[] lines = cls.body.split('\n');
